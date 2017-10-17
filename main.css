@@ -1,0 +1,63 @@
+.casa_caja{
+  width: 800px;
+  height: 600px;
+  margin:0 auto;
+  position: relative;
+  background-color: #81F7F3;
+
+}
+.pasto{
+  background-color: #64FE2E;
+  border: 1px solid black;
+  width: 800px;
+  height: 50px;
+  position: absolute;
+  bottom: 0px;
+}
+.base{
+  background-color:#D0A9F5;
+  border: 1px solid black;
+  width: 350px;
+  height: 260px;
+  position: absolute;
+  left:250px;
+  bottom: 50px;
+}
+.techo{
+    width: 350px;
+    height: 0px;
+    border-right: 60px solid transparent;
+    border-left: 60px solid transparent;
+    border-bottom: 130px solid #428bca;
+    bottom: 260px;
+    left: -60px;
+    position: absolute;
+}
+.ventana-1{
+  width: 80px;
+  height: 75px;
+  border: 1px solid #black;
+  background-color: #FF0080;
+  top: 150px;
+  position: absolute;
+  left:40px;
+}
+.ventana-2{
+  width: 80px;
+  height: 75px;
+  border: 1px solid #black;
+  background-color: #FF0080;
+  top: 0px;
+  position: absolute;
+  left: 190px;
+}
+.puerta{
+  width: 150px;
+  height: 150px;
+  border: 1px solid #black;
+  background-color: #380B61;
+  top: 0px;
+  position: absolute;
+  left: 400px;
+
+}
