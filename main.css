@@ -51,13 +51,42 @@
   position: absolute;
   left: 190px;
 }
+}
 .puerta{
-  width: 150px;
-  height: 150px;
-  border: 1px solid #black;
+  width: 120px;
+  height: 130px;
   background-color: #380B61;
-  top: 0px;
+  top: 110px;
   position: absolute;
-  left: 400px;
-
+  left: -110px;
+}
+.chimenea{
+  width: 60px;
+  height: 65px;
+  background-color: #8A0808;
+  bottom: 360px;
+  position: absolute;
+  left: 120px;
+}
+.humo-1{
+    width: 65px;
+     height: 65px;
+     -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+     background: #848484;
+     position: absolute;
+     bottom: 70px;
+     left: 5px;
+}
+.humo-2{
+    width: 40px;
+     height: 40px;
+     -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+     background: #848484;
+     position: absolute;
+     bottom: 70px;
+     left: 5px;
 }
