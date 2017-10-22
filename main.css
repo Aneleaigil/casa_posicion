@@ -1,6 +1,6 @@
 .casa_caja{
   width: 800px;
-  height: 600px;
+  height: 700px;
   margin:0 auto;
   position: relative;
   background-color: #81F7F3;
@@ -51,14 +51,13 @@
   position: absolute;
   left: 190px;
 }
-}
 .puerta{
   width: 120px;
   height: 130px;
   background-color: #380B61;
-  top: 110px;
   position: absolute;
-  left: -110px;
+  left: -113px;
+  top:110px;
 }
 .chimenea{
   width: 60px;
@@ -69,24 +68,35 @@
   left: 120px;
 }
 .humo-1{
-    width: 65px;
-     height: 65px;
+    width: 80px;
+     height: 80px;
      -moz-border-radius: 50%;
      -webkit-border-radius: 50%;
      border-radius: 50%;
      background: #848484;
      position: absolute;
      bottom: 70px;
-     left: 5px;
+     left: 0px;
 }
 .humo-2{
-    width: 40px;
-     height: 40px;
+    width: 50px;
+     height: 50px;
      -moz-border-radius: 50%;
      -webkit-border-radius: 50%;
      border-radius: 50%;
-     background: #848484;
+     background: #9c9595;
      position: absolute;
-     bottom: 70px;
-     left: 5px;
+     bottom: 45px;
+     left: 60px;
+}
+.humo-3{
+    width: 30px;
+     height: 30px;
+     -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+     background: #b7b2b2;
+     position: absolute;
+     bottom: 32px;
+     left: 40px;
 }
